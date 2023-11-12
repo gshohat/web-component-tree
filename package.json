@@ -1,0 +1,55 @@
+{
+  "name": "web-component-tree-select",
+  "version": "1.0.0",
+  "author": "Gilad Shohat",
+  "description": "Lightweight, customizable & fast Dropdown Tree Select component for React, Vue, Angular & other frameworks",
+  "homepage": "https://github.com/gshohat/web-component-tree-select#readme",
+  "license": "MIT",
+  "main": "./dist/tree-select.umd.js",
+  "module": "./dist/tree-select.es.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/tree-select.es.js",
+      "require": "./dist/tree-select.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "path": "^0.12.7",
+    "vite": "^4.4.6"
+  },
+  "keywords": [
+    "vue",
+    "react",
+    "angular",
+    "cross framework",
+    "component",
+    "tree-select",
+    "dropdown",
+    "dropdown-tree-select",
+    "vue-dropdown-tree-select",
+    "checkbox-tree",
+    "checkbox-select",
+    "checkbox-tree-select",
+    "checkbox-dropdown-tree-select",
+    "fast",
+    "customizable",
+    "lightweight",
+    "searchable",
+    "search"
+  ]
+}
+
+
