@@ -6,6 +6,7 @@
 Compatible with React, Vue, Angular & other frameworks. 
 Emits selections to parent component
 
+![tree-select](https://github.com/gshohat/web-component-tree-select/assets/91323932/0c43c1c8-8626-4e2c-a0d9-af74df7d8e24)
 
 ## Usage
 
@@ -13,8 +14,7 @@ Emits selections to parent component
 
 ```
 <script setup>
-import DropdownTreeSelect from 'vue-dropdown-tree-select';
-import 'vue-dropdown-tree-select/dist/style.css';
+import TreeSelect from 'web-component-tree-select';
 
 const items = [
   { groupLabel: 'Frontend Developer',
@@ -33,16 +33,19 @@ const items = [
     ]},
 ];
 
-function handleChange(selections) {
-  //todo selections = [ {label '', value: ''}, .... ];
-  // console.log(selections);
-}
+onMounted(() => {
+  const treeElement = document.querySelector('#tree-select');
+  treeElement.items = items;
+
+  treeElement.selectionsChanged = (selections) => {
+    console.log(selections);
+  }
 
 </script>
 
 
 <template>
-<DropdownTreeSelect :items="items" @change-selections="handleChange"/>
+<tree-select id="tree-select"/>
 </template
 ```
 
