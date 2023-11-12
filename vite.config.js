@@ -6,7 +6,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
-      name: "web-component-tree-select",
+      name: "web-component-tree",
       fileName: (format) => `tree-select.${format}.js`
     },
     rollupOptions: {

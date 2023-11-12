@@ -1,5 +1,3 @@
-import {ref, toRaw} from 'vue';
-
 const template = document.createElement('template');
 
 template.innerHTML = `
@@ -246,7 +244,7 @@ function handleRemoveSelection(event) {
 }
 
 function removeSelection(value) {
-    this._selections = toRaw(this._selections).filter(selection => selection.value !== value );
+    this._selections = this._selections.filter(selection => selection.value !== value );
 }
 
 function handleNestedLeafChange(event) {

@@ -1,4 +1,4 @@
-# Web Component Tree Select
+# Web Component Tree
 
 ![NPM License](https://img.shields.io/npm/l/vue-dropdown-tree-select)
 
@@ -6,15 +6,15 @@
 Compatible with React, Vue, Angular & other frameworks. 
 Emits selections to parent component
 
-![tree-select](https://github.com/gshohat/web-component-tree-select/assets/91323932/0c43c1c8-8626-4e2c-a0d9-af74df7d8e24)
+![dropdown-tree-select](https://github.com/gshohat/web-component-tree-select/assets/91323932/0c43c1c8-8626-4e2c-a0d9-af74df7d8e24)
 
-## Usage
+## Vue Usage
 
-`npm i web-component-tree-select`
+`npm i web-component-tree`
 
 ```
 <script setup>
-import TreeSelect from 'web-component-tree-select';
+import TreeSelect from 'web-component-tree';
 
 const items = [
   { groupLabel: 'Frontend Developer',
@@ -49,6 +49,19 @@ onMounted(() => {
 </template
 ```
 
+vite config
+```
+export default defineConfig({
+  plugins: [
+    vue({
+      template: {
+        compilerOptions: {
+          isCustomElement: (tag) => tag.includes('tree-select')
+        }
+      }
+    })
+  ],
+```
 
 ## Contact
 Feel free to ping me 💫

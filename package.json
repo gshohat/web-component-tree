@@ -1,9 +1,9 @@
 {
-  "name": "web-component-tree-select",
+  "name": "web-component-tree",
   "version": "1.0.0",
   "author": "Gilad Shohat",
   "description": "Lightweight, customizable & fast Dropdown Tree Select component for React, Vue, Angular & other frameworks",
-  "homepage": "https://github.com/gshohat/web-component-tree-select#readme",
+  "homepage": "https://github.com/gshohat/web-component-tree#readme",
   "license": "MIT",
   "main": "./dist/tree-select.umd.js",
   "module": "./dist/tree-select.es.js",
