@@ -6,7 +6,8 @@
 Compatible with React, Vue, Angular & other frameworks. 
 Emits selections to parent component
 
-![web-component-tree](https://github.com/gshohat/web-component-tree/assets/91323932/2c4eb502-f406-400f-b779-6d81714a4408)
+![dropdown-tree-select](https://github.com/gshohat/web-component-tree/assets/91323932/8966b5df-b556-42c5-89a6-728645c72500)
+
 
 
 ## Vue Usage
