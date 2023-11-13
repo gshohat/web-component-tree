@@ -2,7 +2,7 @@
 
 ![NPM License](https://img.shields.io/npm/l/vue-dropdown-tree-select)
 
-**Lightweight** component for displaying hierarchical data **< 15k** 😎 <br>
+**Lightweight** component for displaying hierarchical data **< 20k** 😎 <br>
 Compatible with React, Vue, Angular & other frameworks. 
 Emits selections to parent component
 

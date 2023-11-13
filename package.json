@@ -1,6 +1,6 @@
 {
   "name": "web-component-tree",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Gilad Shohat",
   "description": "Lightweight, customizable & fast Dropdown Tree Select component for React, Vue, Angular & other frameworks",
   "homepage": "https://github.com/gshohat/web-component-tree#readme",
