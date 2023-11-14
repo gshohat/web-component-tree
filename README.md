@@ -1,6 +1,6 @@
 # Web Component Tree
 
-![NPM License](https://img.shields.io/npm/l/vue-dropdown-tree-select)
+![NPM License](https://img.shields.io/npm/l/web-component-tree)
 
 **Lightweight** component for displaying hierarchical data **< 20k** 😎 <br>
 Compatible with React, Vue, Angular & other frameworks. 
