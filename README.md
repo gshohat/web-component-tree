@@ -48,7 +48,7 @@ onMounted(() => {
 
 <template>
 <tree-select id="tree-select"/>
-</template
+</template>
 ```
 
 vite config
